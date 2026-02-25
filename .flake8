@@ -1,0 +1,14 @@
+# WARNING: template code, may need edits
+[flake8]
+max-line-length = 100
+exclude = 
+    .git,
+    __pycache__,
+    build,
+    dist,
+    .eggs,
+    *.egg-info,
+    venv,
+    env
+ignore = E203, E266, W503
+max-complexity = 10
